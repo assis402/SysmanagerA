@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{DE1C9B09-B655-4B5F-951B-D00733179812}"
+	ProjectSection(SolutionItems) = preProject
+		createDatabase.sql = createDatabase.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysManager.API.Admin", "SysManager.API.Admin\SysManager.API.Admin.csproj", "{B065C779-A8AB-4221-BCA6-DFE2AAB3E01B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysManager.Application", "SysManager.Application\SysManager.Application.csproj", "{EC88DE85-2C89-427B-A968-0813620FE0C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B065C779-A8AB-4221-BCA6-DFE2AAB3E01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B065C779-A8AB-4221-BCA6-DFE2AAB3E01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B065C779-A8AB-4221-BCA6-DFE2AAB3E01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B065C779-A8AB-4221-BCA6-DFE2AAB3E01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC88DE85-2C89-427B-A968-0813620FE0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC88DE85-2C89-427B-A968-0813620FE0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC88DE85-2C89-427B-A968-0813620FE0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC88DE85-2C89-427B-A968-0813620FE0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED5D851F-A685-48DD-9485-DC5DBA52B20F}
+	EndGlobalSection
+EndGlobal
